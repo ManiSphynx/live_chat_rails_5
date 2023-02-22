@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+# Users mock data
+User.create(username: 'test1', password: 'password')
+User.create(username: 'test2', password: 'password')
+User.create(username: 'test3', password: 'password')
+User.create(username: 'test4', password: 'password')
+User.create(username: 'test5', password: 'password')
+User.create(username: 'test6', password: 'password')

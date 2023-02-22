@@ -13,3 +13,8 @@ User.create(username: 'test3', password: 'password')
 User.create(username: 'test4', password: 'password')
 User.create(username: 'test5', password: 'password')
 User.create(username: 'test6', password: 'password')
+
+# Messages mock data
+Message.create(body: 'Hello, world!', user_id: 1)
+Message.create(body: 'Hello, world!', user_id: 2)
+Message.create(body: 'Hello, world!', user_id: 3)

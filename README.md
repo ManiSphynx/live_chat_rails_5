@@ -1,24 +1,56 @@
-# README
+# Live chat 💬
+This is a Rails 6 project that demonstrates an example of CRUD for a blog, where you can create, edit, view, and delete articles.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Requirements 💻
+To run this project, you need to have installed:
 
-Things you may want to cover:
+* Ruby >= 2.2.2
+* Rails 5.2.1 
+* Bundler 
 
-* Ruby version
+### Installation ⚙️
+1. Clone this repository to your local machine:
 
-* System dependencies
+```bash 
+git clone https://github.com/ManiSphynx/live_chat_rails_5
+```
 
-* Configuration
+2. Install the dependencies:
 
-* Database creation
+```bash 
+bundle install
+```
 
-* Database initialization
+3. Create the database:
 
-* How to run the test suite
+```bash 
+rails db:migrate
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+4. Optionally, you can seed some test data into the database:
 
-* Deployment instructions
+```bash 
+rails db:seed
+```
 
-* ...
+### Usage 👨‍💻
+
+1. Start the Rails server:
+
+```bash 
+rails server
+```
+
+2. Open your web browser and visit the address http://localhost:3000.
+3. The sign up option is not finished yet, I have sent your pr and I will gladly review it to add that option. You need to create your user using ruby console.
+4. Enjoy.
+
+### Contributing 🤝
+
+If you want to contribute to this project, please create a pull request with your changes and I'll be happy to review them.
+
+### License 👮‍♂️
+
+This project is available under the MIT License. For more details, please read the LICENSE file.
+
+
